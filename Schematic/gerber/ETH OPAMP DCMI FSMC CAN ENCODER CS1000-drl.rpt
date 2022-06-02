@@ -1,0 +1,32 @@
+Drill report for /home/dell/Dokument/KiCad-Workspace/ETH OPAMP DCMI FSMC CAN ENCODER CS1000/ETH OPAMP DCMI FSMC CAN ENCODER CS1000/ETH OPAMP DCMI FSMC CAN ENCODER CS1000.kicad_pcb
+Created on tor 11 feb 2021 15:39:08
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'ETH OPAMP DCMI FSMC CAN ENCODER CS1000.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,30mm  0,012"  (417 holes)
+    T2  0,50mm  0,020"  (37 holes)
+    T3  0,90mm  0,035"  (8 holes)
+    T4  1,00mm  0,039"  (66 holes)
+    T5  1,02mm  0,040"  (4 holes)
+    T6  1,30mm  0,051"  (35 holes)
+    T7  2,70mm  0,106"  (4 holes)
+
+    Total plated holes count 571
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T8  1,60mm  0,063"  (2 holes)
+    T9  3,25mm  0,128"  (2 holes)
+
+    Total unplated holes count 4

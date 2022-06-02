@@ -1,0 +1,40 @@
+>  C1 - C42			100nF				Capacitor_SMD:C_0603_1608Metric							581-0603YC104MAT4A	29
+>  C4, C8			1uF				Capacitor_SMD:C_0603_1608Metric							80-C0603C105K8R		2
+    C23				4.7uF				Capacitor_SMD:C_0603_1608Metric							187-CL10A475KP8NNNC	1
+>  C24, C25			2.2uF				Capacitor_SMD:C_0603_1608Metric							187-CL10A225KP8NNNC	2
+>  C32 - C41			10uF				Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J_Pad1.25x1.05mm_HandSolder		74-TMCJ0E106MTR2F(or 755-TCSM1C106M8R)	4
+>  C39, C40			4.7pF				Capacitor_SMD:C_0603_1608Metric							80-C0603C479D5HACTU	2
+    D1				LED				LED_SMD:LED_0603_1608Metric							710-150060AS75000	1
+>  D2 - D22			BZX84Cxx			Diode_SMD:D_SOT-23_ANK								863-BZX84C3V6LT1G	20
+>  D20 - D29			D_Schottky			Diode_SMD:D_SOD-123								863-BAT54T1G		8
+>  F1 - F3			Polyfuse			Resistor_SMD:R_0603_1608Metric							530-0ZCM0002FF2G	3
+>  GND1 - GND3			MountingHole_Pad		MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad					~			3
+    J1				Conn_02x09			Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Vertical			~			1
+    J2				RJ45_LED			Connector_RJ:RJ45_Wuerth_7499010121A_Horizontal					710-74990101212(or 710-7499010121A)		1
+    J3				Conn_02x20			Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical			~			1
+>  J4 - J14			Screw_Terminal_01x03		TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal	651-1935174		4
+    J5				Conn_02x03			Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical			~			1
+    J7				Conn_01x02			Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical			~			1
+>  J9, J11			Screw_Terminal_01x06		TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-6_1x06_P5.00mm_Horizontal	651-1935200		2
+    J10				01x03				TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal	651-1935174		1
+>  J6, J13			Screw_Terminal_01x04		TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal	651-1935187		2
+    Q1				BC847				Package_TO_SOT_SMD:SOT-23							863-BC847BLT1G		1
+>  Q5 - Q9			BUK9Y07-30B115			Package_TO_SOT_SMD:LFPAK56							771-BUK9Y07-30B115	4
+>  R1 - R43			2.2K				Resistor_SMD:R_0603_1608Metric							71-CRCW06032K20FKEAC	16
+    R3				1.5K				Resistor_SMD:R_0603_1608Metric							71-CRCW06031K50FKEAC	1
+    R9				4.87K				Resistor_SMD:R_0603_1608Metric							71-CRCW0603-4.87K-E3	1
+>  R10 - R13			49.9				Resistor_SMD:R_0603_1608Metric							71-CRCW060349R9FKEAC	4
+>  R16 - R18			110				Resistor_SMD:R_0603_1608Metric							71-CRCW0603-110-E3	3
+>  R22 - R44			10K				Resistor_SMD:R_0603_1608Metric							71-CRCW060310K0JNEAC	10
+>  R38 - R40			150				Resistor_SMD:R_1206_3216Metric							660-SG73P2BTTD151G	3
+    R45				120				Resistor_SMD:R_0603_1608Metric							71-CRCW0603120RFKEAC	1
+    RJ45_GND1			MountingHole_Pad		MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad					~			1
+    SW1				SW_Push				Button_Switch_SMD:SW_SPST_FSMSM							506-FSMSM		1
+    U1				STM32F407VGTx			Package_QFP:LQFP-100_14x14mm_P0.5mm						511-STM32F407VGT6	1
+    U2				DP83848I			Package_QFP:LQFP-48_7x7mm_P0.5mm						926-DP83848IVV/NOPB	1
+    U3				LM1117-3.3			Package_TO_SOT_SMD:SOT-223							926-LM1117MP-3.3NOPB	1
+    U5				TCAN332				Package_SO:SOIC-8_3.9x4.9mm_P1.27mm						595-TCAN332DR		1
+    U6				MCP4728				Package_SO:MSOP-10_3x3mm_P0.5mm							579-MCP4728A4TEUNVAO	1
+    X1				24MHz				Crystal:Crystal_SMD_EuroQuartz_MT-4Pin_3.2x2.5mm_HandSoldering			520-3225MV-240-BNT(or 520-3225Q-33-240-BST)	1
+    X2				50MHz				Crystal:Crystal_SMD_EuroQuartz_MT-4Pin_3.2x2.5mm_HandSoldering			520-3225MVQ-500-CN-T	1
+    Y1				32.768kHz			Crystal:Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm_HandSoldering		520-.327-12.5-34QNT(or 717-9HT1032.768KBZFT)	1

@@ -1,0 +1,9 @@
+../Core/Src/MCP4728/mcp4728.c:18:13:transmit_reset	24	static
+../Core/Src/MCP4728/mcp4728.c:23:13:transmit_wake_up	24	static
+../Core/Src/MCP4728/mcp4728.c:28:6:mcp4728_init	16	static
+../Core/Src/MCP4728/mcp4728.c:36:6:mcp4728_set_channel_value	16	static
+../Core/Src/MCP4728/mcp4728.c:41:6:mcp4728_set_channel_power_down	16	static
+../Core/Src/MCP4728/mcp4728.c:46:6:mcp4728_set_channel_gain	16	static
+../Core/Src/MCP4728/mcp4728.c:51:6:mcp4728_set_channel_vref	16	static
+../Core/Src/MCP4728/mcp4728.c:56:6:mcp4728_multi_write_command	24	static
+../Core/Src/MCP4728/mcp4728.c:64:6:mcp4728_single_write_command	32	static

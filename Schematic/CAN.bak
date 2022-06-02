@@ -1,0 +1,126 @@
+EESchema Schematic File Version 4
+LIBS:ETH OPAMP DCMI FSMC CAN ENCODER CS1000-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 6027314D
+P 8850 3150
+AR Path="/6027314D" Ref="J?"  Part="1" 
+AR Path="/6026D237/6027314D" Ref="J10"  Part="1" 
+F 0 "J10" V 8723 3330 50  0000 L CNN
+F 1 "01x03" V 8814 3330 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal" H 8850 3150 50  0001 C CNN
+F 3 "651-1935174" H 8850 3150 50  0001 C CNN
+	1    8850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_CAN_LIN:TCAN332 U5
+U 1 1 60273A43
+P 6900 3150
+F 0 "U5" H 6900 3728 50  0000 C CNN
+F 1 "TCAN332" H 6900 3637 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6900 2650 50  0001 C CIN
+F 3 "595-TCAN332DR" H 6900 3150 50  0001 C CNN
+	1    6900 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 60274624
+P 7700 2200
+F 0 "J7" V 7666 2012 50  0000 R CNN
+F 1 "Conn_01x02" V 7575 2012 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7700 2200 50  0001 C CNN
+F 3 "~" H 7700 2200 50  0001 C CNN
+	1    7700 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R45
+U 1 1 602746CC
+P 7700 2750
+F 0 "R45" H 7770 2796 50  0000 L CNN
+F 1 "120" H 7770 2705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7630 2750 50  0001 C CNN
+F 3 "71-CRCW0603120RFKEAC" H 7700 2750 50  0001 C CNN
+	1    7700 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 2600 7700 2400
+Wire Wire Line
+	8650 3050 8500 3050
+$Comp
+L power:GND #PWR057
+U 1 1 602748D5
+P 8500 3600
+F 0 "#PWR057" H 8500 3350 50  0001 C CNN
+F 1 "GND" H 8505 3427 50  0000 C CNN
+F 2 "" H 8500 3600 50  0001 C CNN
+F 3 "" H 8500 3600 50  0001 C CNN
+	1    8500 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 3600 8500 3550
+Wire Wire Line
+	8500 3550 8500 3050
+Connection ~ 8500 3550
+Wire Wire Line
+	6900 2750 6600 2750
+Wire Wire Line
+	6600 2750 6600 2500
+$Comp
+L power:+3.3V #PWR056
+U 1 1 60274E10
+P 6600 2500
+F 0 "#PWR056" H 6600 2350 50  0001 C CNN
+F 1 "+3.3V" H 6615 2673 50  0000 C CNN
+F 2 "" H 6600 2500 50  0001 C CNN
+F 3 "" H 6600 2500 50  0001 C CNN
+	1    6600 2500
+	1    0    0    -1  
+$EndComp
+Text HLabel 6400 2950 0    50   Input ~ 0
+CAN1_TX
+Text HLabel 6400 3050 0    50   Input ~ 0
+CAN1_RX
+Wire Wire Line
+	6900 3550 8500 3550
+Wire Wire Line
+	7400 3050 7800 3050
+Wire Wire Line
+	7400 3250 7700 3250
+Wire Wire Line
+	7700 2900 7700 3250
+Wire Wire Line
+	7800 2400 7800 3050
+Connection ~ 7800 3050
+Wire Wire Line
+	7800 3050 8100 3050
+Wire Wire Line
+	8100 3250 8650 3250
+Wire Wire Line
+	8100 3050 8100 3250
+Wire Wire Line
+	7700 3250 8000 3250
+Wire Wire Line
+	8000 3250 8000 3150
+Wire Wire Line
+	8000 3150 8650 3150
+Connection ~ 7700 3250
+$EndSCHEMATC

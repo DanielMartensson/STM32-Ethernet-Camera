@@ -1,0 +1,47 @@
+EESchema Schematic File Version 4
+LIBS:ETH OPAMP DCMI FSMC CAN ENCODER CS1000-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 6027314D
+P 8850 3150
+F 0 "J?" V 8723 3330 50  0000 L CNN
+F 1 "01x03" V 8814 3330 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal" H 8850 3150 50  0001 C CNN
+F 3 "651-1935174" H 8850 3150 50  0001 C CNN
+	1    8850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_CAN_LIN:TCAN332 U?
+U 1 1 60273A43
+P 6900 3150
+F 0 "U?" H 6900 3728 50  0000 C CNN
+F 1 "TCAN332" H 6900 3637 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6900 2650 50  0001 C CIN
+F 3 "595-TCAN332DR" H 6900 3150 50  0001 C CNN
+	1    6900 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 3050 8100 3050
+Wire Wire Line
+	8100 3050 8100 3150
+Wire Wire Line
+	8100 3150 8650 3150
+Wire Wire Line
+	7400 3250 8650 3250
+$EndSCHEMATC

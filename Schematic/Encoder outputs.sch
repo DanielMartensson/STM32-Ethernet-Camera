@@ -1,0 +1,471 @@
+EESchema Schematic File Version 4
+LIBS:ETH OPAMP DCMI FSMC CAN ENCODER CS1000-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 6020553A
+P 2650 2600
+AR Path="/6020553A" Ref="Q?"  Part="1" 
+AR Path="/60200981/6020553A" Ref="Q?"  Part="1" 
+F 0 "Q?" H 2855 2646 50  0000 L CNN
+F 1 "2N7002" H 2855 2555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2850 2525 50  0001 L CIN
+F 3 "771-2N7002NXAKR" H 2650 2600 50  0001 L CNN
+	1    2650 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60205541
+P 2250 2600
+AR Path="/6014AFDF/60205541" Ref="R?"  Part="1" 
+AR Path="/60205541" Ref="R?"  Part="1" 
+AR Path="/60200981/60205541" Ref="R?"  Part="1" 
+F 0 "R?" V 2457 2600 50  0000 C CNN
+F 1 "2.2K" V 2366 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2180 2600 50  0001 C CNN
+F 3 "71-CRCW06032K20FKEAC" H 2250 2600 50  0001 C CNN
+	1    2250 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 60205548
+P 2750 2400
+AR Path="/60205548" Ref="#PWR?"  Part="1" 
+AR Path="/60200981/60205548" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2750 2250 50  0001 C CNN
+F 1 "+12V" H 2765 2573 50  0000 C CNN
+F 2 "" H 2750 2400 50  0001 C CNN
+F 3 "" H 2750 2400 50  0001 C CNN
+	1    2750 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 2600 2450 2600
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 6020554F
+P 3850 3350
+F 0 "J?" V 3723 3530 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" V 3814 3530 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal" H 3850 3350 50  0001 C CNN
+F 3 "651-1935174" H 3850 3350 50  0001 C CNN
+	1    3850 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 60205556
+P 3750 2600
+AR Path="/60205556" Ref="Q?"  Part="1" 
+AR Path="/60200981/60205556" Ref="Q?"  Part="1" 
+F 0 "Q?" H 3955 2646 50  0000 L CNN
+F 1 "2N7002" H 3955 2555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3950 2525 50  0001 L CIN
+F 3 "771-2N7002NXAKR" H 3750 2600 50  0001 L CNN
+	1    3750 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6020555D
+P 3350 2600
+AR Path="/6014AFDF/6020555D" Ref="R?"  Part="1" 
+AR Path="/6020555D" Ref="R?"  Part="1" 
+AR Path="/60200981/6020555D" Ref="R?"  Part="1" 
+F 0 "R?" V 3557 2600 50  0000 C CNN
+F 1 "2.2K" V 3466 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3280 2600 50  0001 C CNN
+F 3 "71-CRCW06032K20FKEAC" H 3350 2600 50  0001 C CNN
+	1    3350 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 60205564
+P 3850 2400
+AR Path="/60205564" Ref="#PWR?"  Part="1" 
+AR Path="/60200981/60205564" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3850 2250 50  0001 C CNN
+F 1 "+12V" H 3865 2573 50  0000 C CNN
+F 2 "" H 3850 2400 50  0001 C CNN
+F 3 "" H 3850 2400 50  0001 C CNN
+	1    3850 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2600 3550 2600
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 6020556B
+P 4850 2600
+AR Path="/6020556B" Ref="Q?"  Part="1" 
+AR Path="/60200981/6020556B" Ref="Q?"  Part="1" 
+F 0 "Q?" H 5055 2646 50  0000 L CNN
+F 1 "2N7002" H 5055 2555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5050 2525 50  0001 L CIN
+F 3 "771-2N7002NXAKR" H 4850 2600 50  0001 L CNN
+	1    4850 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60205572
+P 4450 2600
+AR Path="/6014AFDF/60205572" Ref="R?"  Part="1" 
+AR Path="/60205572" Ref="R?"  Part="1" 
+AR Path="/60200981/60205572" Ref="R?"  Part="1" 
+F 0 "R?" V 4657 2600 50  0000 C CNN
+F 1 "2.2K" V 4566 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4380 2600 50  0001 C CNN
+F 3 "71-CRCW06032K20FKEAC" H 4450 2600 50  0001 C CNN
+	1    4450 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 60205579
+P 4950 2400
+AR Path="/60205579" Ref="#PWR?"  Part="1" 
+AR Path="/60200981/60205579" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4950 2250 50  0001 C CNN
+F 1 "+12V" H 4965 2573 50  0000 C CNN
+F 2 "" H 4950 2400 50  0001 C CNN
+F 3 "" H 4950 2400 50  0001 C CNN
+	1    4950 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2600 4650 2600
+Wire Wire Line
+	3850 3150 3850 2800
+Wire Wire Line
+	3750 3150 3750 2950
+Wire Wire Line
+	3750 2950 2750 2950
+Wire Wire Line
+	2750 2950 2750 2800
+Wire Wire Line
+	3950 3150 3950 2950
+Wire Wire Line
+	3950 2950 4950 2950
+Wire Wire Line
+	4950 2950 4950 2800
+Wire Wire Line
+	4300 2600 4300 2300
+Wire Wire Line
+	3200 2600 3200 2300
+Wire Wire Line
+	2100 2600 2100 2300
+Text HLabel 2100 2300 1    50   Input ~ 0
+ENCODER0_REVERSE
+Text HLabel 3200 2300 1    50   Input ~ 0
+ENCODER1_REVERSE
+Text HLabel 4300 2300 1    50   Input ~ 0
+ENCODER2_REVERSE
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 6022A4CE
+P 2750 5450
+F 0 "J?" V 2623 5530 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" V 2714 5530 50  0000 L CNN
+F 2 "" H 2750 5450 50  0001 C CNN
+F 3 "~" H 2750 5450 50  0001 C CNN
+	1    2750 5450
+	0    1    1    0   
+$EndComp
+Text HLabel 2650 4100 1    50   Input ~ 0
+ENCODER0_P
+Text HLabel 2750 4100 1    50   Input ~ 0
+ENCODER0_M
+$Comp
+L Device:R R?
+U 1 1 6022AE00
+P 2650 4650
+F 0 "R?" H 2720 4696 50  0000 L CNN
+F 1 "10K" H 2720 4605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2580 4650 50  0001 C CNN
+F 3 "71-CRCW060310K0JNEAC" H 2650 4650 50  0001 C CNN
+	1    2650 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6022AEE0
+P 2750 4350
+F 0 "R?" H 2820 4396 50  0000 L CNN
+F 1 "10K" H 2820 4305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2680 4350 50  0001 C CNN
+F 3 "71-CRCW060310K0JNEAC" H 2750 4350 50  0001 C CNN
+	1    2750 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BZX84Cxx D?
+U 1 1 6022B045
+P 2300 4900
+F 0 "D?" H 2300 4684 50  0000 C CNN
+F 1 "BZX84Cxx" H 2300 4775 50  0000 C CNN
+F 2 "Diode_SMD:D_SOT-23_ANK" H 2300 4725 50  0001 C CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 2300 4900 50  0001 C CNN
+	1    2300 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:BZX84Cxx D?
+U 1 1 6022B10E
+P 2000 5100
+F 0 "D?" H 2000 4884 50  0000 C CNN
+F 1 "BZX84Cxx" H 2000 4975 50  0000 C CNN
+F 2 "Diode_SMD:D_SOT-23_ANK" H 2000 4925 50  0001 C CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 2000 5100 50  0001 C CNN
+	1    2000 5100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2750 4100 2750 4200
+Wire Wire Line
+	2650 4500 2650 4100
+Wire Wire Line
+	2650 4800 2650 4900
+Wire Wire Line
+	2450 4900 2650 4900
+Connection ~ 2650 4900
+Wire Wire Line
+	2650 4900 2650 5250
+Wire Wire Line
+	2150 5100 2750 5100
+Connection ~ 2750 5100
+Wire Wire Line
+	2750 5100 2750 5250
+Wire Wire Line
+	2750 4500 2750 5100
+$Comp
+L power:GND #PWR?
+U 1 1 6022BF48
+P 1650 5250
+F 0 "#PWR?" H 1650 5000 50  0001 C CNN
+F 1 "GND" H 1655 5077 50  0000 C CNN
+F 2 "" H 1650 5250 50  0001 C CNN
+F 3 "" H 1650 5250 50  0001 C CNN
+	1    1650 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 4900 1650 4900
+Wire Wire Line
+	1650 4900 1650 5100
+Wire Wire Line
+	1850 5100 1650 5100
+Connection ~ 1650 5100
+Wire Wire Line
+	1650 5100 1650 5250
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 6022C9B2
+P 4950 5450
+F 0 "J?" V 4823 5530 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" V 4914 5530 50  0000 L CNN
+F 2 "" H 4950 5450 50  0001 C CNN
+F 3 "~" H 4950 5450 50  0001 C CNN
+	1    4950 5450
+	0    1    1    0   
+$EndComp
+Text HLabel 4850 4100 1    50   Input ~ 0
+ENCODER1_P
+Text HLabel 4950 4100 1    50   Input ~ 0
+ENCODER1_M
+$Comp
+L Device:R R?
+U 1 1 6022C9BB
+P 4850 4650
+F 0 "R?" H 4920 4696 50  0000 L CNN
+F 1 "10K" H 4920 4605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4780 4650 50  0001 C CNN
+F 3 "71-CRCW060310K0JNEAC" H 4850 4650 50  0001 C CNN
+	1    4850 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6022C9C2
+P 4950 4350
+F 0 "R?" H 5020 4396 50  0000 L CNN
+F 1 "10K" H 5020 4305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4880 4350 50  0001 C CNN
+F 3 "71-CRCW060310K0JNEAC" H 4950 4350 50  0001 C CNN
+	1    4950 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BZX84Cxx D?
+U 1 1 6022C9C9
+P 4500 4900
+F 0 "D?" H 4500 4684 50  0000 C CNN
+F 1 "BZX84Cxx" H 4500 4775 50  0000 C CNN
+F 2 "Diode_SMD:D_SOT-23_ANK" H 4500 4725 50  0001 C CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 4500 4900 50  0001 C CNN
+	1    4500 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:BZX84Cxx D?
+U 1 1 6022C9D0
+P 4200 5100
+F 0 "D?" H 4200 4884 50  0000 C CNN
+F 1 "BZX84Cxx" H 4200 4975 50  0000 C CNN
+F 2 "Diode_SMD:D_SOT-23_ANK" H 4200 4925 50  0001 C CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 4200 5100 50  0001 C CNN
+	1    4200 5100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4950 4100 4950 4200
+Wire Wire Line
+	4850 4500 4850 4100
+Wire Wire Line
+	4850 4800 4850 4900
+Wire Wire Line
+	4650 4900 4850 4900
+Connection ~ 4850 4900
+Wire Wire Line
+	4850 4900 4850 5250
+Wire Wire Line
+	4350 5100 4950 5100
+Connection ~ 4950 5100
+Wire Wire Line
+	4950 5100 4950 5250
+Wire Wire Line
+	4950 4500 4950 5100
+$Comp
+L power:GND #PWR?
+U 1 1 6022C9E1
+P 3850 5250
+F 0 "#PWR?" H 3850 5000 50  0001 C CNN
+F 1 "GND" H 3855 5077 50  0000 C CNN
+F 2 "" H 3850 5250 50  0001 C CNN
+F 3 "" H 3850 5250 50  0001 C CNN
+	1    3850 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 4900 3850 4900
+Wire Wire Line
+	3850 4900 3850 5100
+Wire Wire Line
+	4050 5100 3850 5100
+Connection ~ 3850 5100
+Wire Wire Line
+	3850 5100 3850 5250
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 6022D118
+P 7200 5400
+F 0 "J?" V 7073 5480 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" V 7164 5480 50  0000 L CNN
+F 2 "" H 7200 5400 50  0001 C CNN
+F 3 "~" H 7200 5400 50  0001 C CNN
+	1    7200 5400
+	0    1    1    0   
+$EndComp
+Text HLabel 7100 4050 1    50   Input ~ 0
+ENCODER2_P
+Text HLabel 7200 4050 1    50   Input ~ 0
+ENCODER2_M
+$Comp
+L Device:R R?
+U 1 1 6022D121
+P 7100 4600
+F 0 "R?" H 7170 4646 50  0000 L CNN
+F 1 "10K" H 7170 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7030 4600 50  0001 C CNN
+F 3 "71-CRCW060310K0JNEAC" H 7100 4600 50  0001 C CNN
+	1    7100 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6022D128
+P 7200 4300
+F 0 "R?" H 7270 4346 50  0000 L CNN
+F 1 "10K" H 7270 4255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7130 4300 50  0001 C CNN
+F 3 "71-CRCW060310K0JNEAC" H 7200 4300 50  0001 C CNN
+	1    7200 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BZX84Cxx D?
+U 1 1 6022D12F
+P 6750 4850
+F 0 "D?" H 6750 4634 50  0000 C CNN
+F 1 "BZX84Cxx" H 6750 4725 50  0000 C CNN
+F 2 "Diode_SMD:D_SOT-23_ANK" H 6750 4675 50  0001 C CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 6750 4850 50  0001 C CNN
+	1    6750 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:BZX84Cxx D?
+U 1 1 6022D136
+P 6450 5050
+F 0 "D?" H 6450 4834 50  0000 C CNN
+F 1 "BZX84Cxx" H 6450 4925 50  0000 C CNN
+F 2 "Diode_SMD:D_SOT-23_ANK" H 6450 4875 50  0001 C CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 6450 5050 50  0001 C CNN
+	1    6450 5050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7200 4050 7200 4150
+Wire Wire Line
+	7100 4450 7100 4050
+Wire Wire Line
+	7100 4750 7100 4850
+Wire Wire Line
+	6900 4850 7100 4850
+Connection ~ 7100 4850
+Wire Wire Line
+	7100 4850 7100 5200
+Wire Wire Line
+	6600 5050 7200 5050
+Connection ~ 7200 5050
+Wire Wire Line
+	7200 5050 7200 5200
+Wire Wire Line
+	7200 4450 7200 5050
+$Comp
+L power:GND #PWR?
+U 1 1 6022D147
+P 6100 5200
+F 0 "#PWR?" H 6100 4950 50  0001 C CNN
+F 1 "GND" H 6105 5027 50  0000 C CNN
+F 2 "" H 6100 5200 50  0001 C CNN
+F 3 "" H 6100 5200 50  0001 C CNN
+	1    6100 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4850 6100 4850
+Wire Wire Line
+	6100 4850 6100 5050
+Wire Wire Line
+	6300 5050 6100 5050
+Connection ~ 6100 5050
+Wire Wire Line
+	6100 5050 6100 5200
+$EndSCHEMATC
