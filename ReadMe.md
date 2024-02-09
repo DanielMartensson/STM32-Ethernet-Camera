@@ -13,10 +13,10 @@ This project have:
  * DCMI camera
  * Ethernet
 
-This project have some issues with
+This project will focus on
 
- * OV7670 Camera SCCB protocol (Need more work to get I2C work with SCCB)
- * Ethernet for STM32F4 series (I think there is a bug in STM32CubeIDE)
+ * OV7670 Camera SCCB protocol for computer vision
+ * Ethernet for STM32F4 series
 
 
 ![a](https://raw.githubusercontent.com/DanielMartensson/STM32-Ethernet-Camera/main/Schematic/V%C3%A4derstation.png)
